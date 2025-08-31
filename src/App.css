@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 20px;
+  font-family: 'Roboto';
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 28px;
+}
+
+.title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.links {
+  text-decoration: none;
+  border: 2px solid gray;
+  border-radius: 3px;
+  width: 180px;
+  height: 40px;
+  background: rgb(31, 204, 248);
+  color: #ffff;
+  padding: 10px;
+  border-width: 0px;
+}
+
+.add {
+  background: rgb(8, 61, 253);
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+th {
+  background: #f4c632;
+  color: #fff;
+  font-size:18px;
+  cursor: pointer;
+
+}
+
+.edit-btn {
+  border: 2px solid gray;
+  border-radius: 3px;
+  width: 80px;
+  height: 40px;
+  background: rgb(93, 119, 238);
+  color: #ffff;
+  padding: 10px;
+  border-width: 0px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
+.delete-btn {
+  border: 2px solid gray;
+  border-radius: 3px;
+  width: 80px;
+  height: 40px;
+  background: red;
+  color: #ffff;
+  padding: 10px;
+  border-width: 0px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Add User */
+
+.add-user-container {
+  max-width:400px;
+  margin: auto;
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding:20px;
+  box-shadow: 10px 10px 5px 5px #aaaaaa;
+  border-color: #fff;
+  
+}
+.add-title{
+  text-align: center;
+  font-size:30px;
+}
+.user-form{
+  display: flex;
+  flex-direction: column;
+}
+.user-form input{
+  height:45px;
+  border-radius:8px;
+  border-color: #fff;
+  background: rgb(240, 242, 244);
+  border-width: 0px;
+  cursor: pointer;
+}
+.user-form input::placeholder{
+  padding-left: 8px;
+}
+.add-btn{
+   border: 2px solid gray;
+  border-radius: 3px;
+  width:100px;
+  height: 40px;
+  background: rgb(93, 119, 238);
+  color: #ffff;
+  padding: 10px;
+  border-width: 0px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Edit User */ 
+
+.edit-user-container {
+  max-width:400px;
+  margin: auto;
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding:20px;
+  box-shadow: 10px 10px 5px 5px #aaaaaa;
+  border-color: #fff;
+  
+  
+}
+.edit-title{
+  text-align: center;
+  font-size:30px;
+}
+.edit-form{
+  display: flex;
+  flex-direction: column;
+}
+.edit-form input{
+  height:45px;
+  border-radius:8px;
+  border-color: #fff;
+  background: rgb(240, 242, 244);
+  border-width: 0px;
+  cursor: pointer;
+}
+.edit-form input::placeholder{
+  padding-left: 8px;
+  font-size: 20px;
+}
+.update-btn{
+   border: 2px solid gray;
+  border-radius: 3px;
+  width:120px;
+  height: 40px;
+  background: rgb(93, 119, 238);
+  color: #ffff;
+  padding: 10px;
+  border-width: 0px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.loader{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:800px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}

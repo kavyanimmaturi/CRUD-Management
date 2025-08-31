@@ -18,6 +18,10 @@
 # JSON Placeholder API Used: 
         "https://jsonplaceholder.typicode.com/users"
 
+## Links: 
+      Github Link -> https://github.com/kavyanimmaturi/CRUD-Management.git 
+      Project Link -> https://crud-management-one.vercel.app/
+
 
 ## Functionalities: 
 
